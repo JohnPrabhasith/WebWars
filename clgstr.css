@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  main {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    border: 0px;
+    box-shadow: 0px 0px 18px grey;
+    border-bottom: 0px solid rgba(203, 200, 200, 0.329);
+    background-color: white;
+  }
+  #home12 {
+    position: fixed;
+    opacity: 0.5;
+    z-index: -3333;
+    padding-left: 420px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 12px 15px;
+  }
+  
+  nav ul li {
+    font-weight: bold;
+    padding-top: 55px;
+    margin-left: 5px;
+    margin-right: 54px
+  }
+  
+  nav ul li a {
+    color: #0003a2;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 3px solid  #0003a2;
+  }
+  
+  .clglogo {
+   padding-top: 5px;
+   padding-left:5px ;
+   /* padding-left: 5px; */
+  }
+  span {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  #dashlogo{
+    margin-top: 15px;
+    padding-left: 26px;
+    margin-right: 103px;
+    height: 120px;
+  }
+
+  .clgstr{
+    border-bottom: 3px solid  #0003a2;
+  }
+  .resources-container {
+    width: 80%;
+    margin: 65px 10px 10px 161px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    color: #0003a2;
+    font-weight: 600;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .departments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .department {
+    flex: 0 0 23%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .department:hover {
+    transform: scale(1.02);
+  }
+  
+  .department h2 {
+    margin-bottom: 10px;
+  }
+  
+  .department p {
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+  
+  .department a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .department a:hover {
+    color: #000000
+  }
